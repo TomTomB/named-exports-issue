@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { fromFoo } from './stuff';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'named-exports-issue';
+
+  foo = fromFoo.bar;
 }

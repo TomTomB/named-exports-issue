@@ -1,0 +1,1 @@
+export * as fromFoo from './foo';
